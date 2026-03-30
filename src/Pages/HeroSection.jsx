@@ -16,7 +16,7 @@ function HeroSection() {
     >
       <div className='flex gap-3'>
 
-        <div className='w-full min-h-11/12 pl-35  pb-30 '>
+        <div className='w-full min-h-11/12 pl-35  pb-30'>
           <h1 className='md:text-6xl lg:text-[4.5rem] font-bold text-5xl leading-20'>Save Monthly <br/>for Your Dream <br></br>Trip</h1>
           
           <p className="mt-6 text-lg md:text-xl text-gray-700 max-w-lg font-medium leading-relaxed">
