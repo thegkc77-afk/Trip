@@ -12,15 +12,16 @@ function HeroSection() {
         backgroundImage: `url(${Hero1})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-      }}
+        fontFamily: 'Playfair Display'
+            }}
     >
-      <div className='flex gap-3'>
-
-        <div className='w-full min-h-11/12 pl-35  pb-30'>
-          <h1 className='md:text-6xl lg:text-[4.5rem] font-bold text-5xl leading-20'>Save Monthly <br/>for Your Dream <br></br>Trip</h1>
+      <div className='flex'>
+{/* pl-35 pb-10 */}
+        <div className='w-full min-h-11/12 p-18'>
+          <h1 className='md:text-6xl lg:text-[4.5rem] font-bold text-5xl leading-20'>Save Monthly for Your Dream Trip</h1>
           
           <p className="mt-6 text-lg md:text-xl text-gray-700 max-w-lg font-medium leading-relaxed">
-            Plan your trip, set your goal, and save step by step — <br className="hidden md:block" />
+            Plan your trip, set your goal, and save step by step <br className="hidden md:block" />
             stress-free travel without loans.
           </p>
   
@@ -31,7 +32,8 @@ function HeroSection() {
         </div>
 
         {/* Glassmorphism Card (Right Side) */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end relative mt-10 md:mt-0"> 
+
+        <div className="w-full h-70  flex justify-center md:justify-end relative m-50"> 
 
           <div className="w-full max-w-md  backdrop-blur-xl border-4 border-white/60 rounded-[2.5rem] p-8 pb-10 shadow-2xl relative">
             <h2 className="text-3xl font-extrabold text-slate-800">
