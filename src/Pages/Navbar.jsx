@@ -8,6 +8,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* Logo */}
+        
         <Link to="/">
           <h1 className="text-2xl font-bold text-blue-600 cursor-pointer">
             TripNivesh
@@ -15,6 +16,7 @@ function Navbar() {
         </Link>
 
         {/* Menu */}
+
         <div className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
           <Link to="/plan" className="hover:text-blue-600 transition">
             Plan Trip

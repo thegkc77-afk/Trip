@@ -25,7 +25,7 @@ function HeroSection() {
             stress-free travel without loans.
           </p>
   
-           <button className="inline-block mt-8 bg-[#ff8c00] hover:bg-[#e67e00] text-white px-8 py-4 rounded-full text-lg font-semibold shadow-xl transition transform hover:-translate-y-1">
+           <button className="inline-block mt-8 bg-linear-to-r bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-xl transition transform hover:-translate-y-1">
             Start Saving Now</button>
            
   
@@ -48,7 +48,7 @@ function HeroSection() {
 
             <div className="mt-5 relative">
                 <div className="w-full h-4 bg-gray-300/80 rounded-full overflow-hidden">
-                    <div className="h-full bg-[#ff8c00] rounded-full" style={{ width: '40%' }}></div>
+                    <div className="h-full bg-linear-to-r from-teal-400 to-cyan-500 hover:from-teal-500 hover:to-cyan-600 rounded-full" style={{ width: '40%' }}></div>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@ function HeroSection() {
             </p>
 
             {/* Action Button */}
-            <Link to="/start-saving" className="mt-6 w-full bg-[#ff8c00] hover:bg-[#e67e00] text-white text-xl py-3.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2 transition transform hover:-translate-y-1">
+            <Link to="/start-saving" className="mt-6 w-full bg-linear-to-r from-teal-400 to-cyan-500 hover:from-teal-500 hover:to-cyan-600 text-white text-xl py-3.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2 transition transform hover:-translate-y-1">
                 Start Saving
                 <span className="text-2xl leading-none"></span>
             </Link>
