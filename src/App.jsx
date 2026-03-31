@@ -8,8 +8,8 @@ import Howitwork from './Pages/Howitwork'
 function Home(){
   return (
     <>
-    <HeroSection/>
-    <Howitwork/>
+    {/* <HeroSection/> */}
+    {/* <Howitwork/> */}
    
     </>
 
