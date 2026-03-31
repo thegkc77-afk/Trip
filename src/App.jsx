@@ -1,8 +1,10 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
+
 import HeroSection from './Pages/HeroSection'
 import Navbar from './Pages/Navbar'
 import Howitwork from './Pages/Howitwork'
+import About from './components/About'
 
 
 function Home(){
@@ -10,6 +12,7 @@ function Home(){
     <>
     <HeroSection/>
     <Howitwork/>
+    <About/>
    
     </>
 
