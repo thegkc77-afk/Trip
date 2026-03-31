@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+.about{
+  /* padding: 12px; */
+  margin-left: 245PX;
+  /* text-align: center; */
+  justify-content: space-between;
+}
+.about h1{
+  font-size: 80px;
+  font-weight: bold;
+}
+.about p{
+
+  font-size: 25px;
+  font-weight: bold;
+}
