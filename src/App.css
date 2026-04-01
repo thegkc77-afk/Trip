@@ -7,3 +7,137 @@ body{
     height: 100%;
     width: 100%;
 }
+
+/* How it work */
+
+
+
+.how-it-works {
+  height: 100vh;
+  padding: 80px 24px 100px;
+  background:
+    radial-gradient(circle at top left, rgba(191, 227, 255, 0.65), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(221, 209, 255, 0.45), transparent 35%),
+    linear-gradient(180deg, #f7fbff 0%, #f8f6ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-it-works__container {
+  width: 100%;
+  max-width: 1280px;
+  text-align: center;
+}
+
+/* Heading */
+.how-it-works__eyebrow {
+  margin: 0 0 18px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  color: #efeff7;
+  background-color: #3166D1;
+}
+
+/* Tittle */
+.how-it-works__title {
+  margin: 0;
+  font-size: clamp(38px, 5vw, 74px);
+  line-height: 0.98;
+  font-weight: 600;
+  color: #1f2b4d;
+}
+
+/* sub-title */
+.how-it-works__subtitle {
+  max-width: 760px;
+  margin: 28px auto 64px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #5f7091;
+  font-weight: 500;
+}
+
+/* Card */
+.how-it-works__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.step-card {
+  position: relative;
+  text-align: left;
+  padding: 34px 34px 30px;
+  min-height: 348px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow:
+    0 12px 30px rgba(113, 136, 184, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.55);
+}
+
+.step-card__number {
+  position: absolute;
+  top: -16px;
+  right: -14px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #c8d1e0;
+  font-size: 28px;
+  font-weight: 800;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 4px 12px rgba(88, 104, 140, 0.12);
+}
+
+.step-card__icon {
+  width: 68px;
+  height: 68px;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  font-size: 34px;
+  margin-bottom: 28px;
+}
+
+.step-card__icon.purple {
+  background: #eef0ff;
+  color: #534bff;
+}
+
+.step-card__icon.green {
+  background: #e8fbf2;
+  color: #14b86f;
+}
+
+.step-card__icon.orange {
+  background: #fff4e8;
+  color: #ff7b16;
+}
+
+.step-card__icon.blue {
+  background: #eef5ff;
+  color: #2c82ff;
+}
+
+.step-card__title {
+  margin: 0 0 16px;
+  font-size: 24px;
+  line-height: 1.35;
+  font-weight: 800;
+  color: #24324f;
+}
+
+.step-card__text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #667897;
+  font-weight: 600;
+}
+
