@@ -1,9 +1,23 @@
-import React from 'react'
+import "../App.css";
+import React from "react";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+// import DestinationSection from "../components/DestinationSection";
+import StepsSection from "../components/StepsSection";
+import WhyChoose from "../components/WhyChoose";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Header />
+      <Hero />
+      {/* <DestinationSection /> */}
+      <StepsSection />
+      <WhyChoose />
+      <Footer />
+    </>
+  );
+};
 
-export default Home
+export default Home;

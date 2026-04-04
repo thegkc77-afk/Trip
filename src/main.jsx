@@ -4,10 +4,12 @@ import './index.css'
 import './App.css'
 import App from './App.jsx'
 import Home from './pages/Home.jsx'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-    <Home />
-  </StrictMode>,
+
+    <Router>
+      <App />
+    </Router>
+
 )

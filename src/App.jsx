@@ -1,20 +1,18 @@
-import './App.css'
-import Home from './pages/Home'
+import "./App.css";
+import Home from "./pages/Home";
+import { Routes, Route, Link, Navigate } from "react-router-dom";
+import Header from "./components/Header";
 
 function App() {
-
   return (
     <>
-    <h1>New</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, magni!</p>
-   
-     
-    
-     
-
+      {/* <Header /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-
-export default App
+export default App;
