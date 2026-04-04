@@ -13,6 +13,7 @@ html, body {
   scrollbar-width: none; 
 }
 
+<<<<<<< HEAD
 body {
   min-height: 100vh;
   width: 100%;
@@ -734,3 +735,5 @@ section {
     display: none;
   }
 }
+=======
+>>>>>>> f4e19abdda8e95b830038deccadcf58b9207fe67
