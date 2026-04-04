@@ -1,25 +1,21 @@
 import './App.css'
-import Contact from './pages/Contact'
-import Howitwork from './pages/Howitwork' 
-import Savesmall from './pages/Savesmall'
+import Home from "./pages/Home";
+import Contact from './pages/Contact';
+import { Routes, Route, Navigate } from "react-router-dom";
 
 
 function App() {
-
   return (
     <>
-    <Howitwork/>
-    <Savesmall/>
-    <Contact/>
-
-  
-     
-    
-     
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='/' element = {<Contact/>}/>
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+      
 
     </>
-  )
+  );
 }
 
-
-export default App
+export default App;
