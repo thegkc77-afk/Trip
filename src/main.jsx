@@ -7,13 +7,10 @@ import Home from './pages/Home.jsx'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-<<<<<<< HEAD
 
     <Router>
       <App />
     </Router>
-=======
-    <App />
->>>>>>> f4e19abdda8e95b830038deccadcf58b9207fe67
+
 
 )

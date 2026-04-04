@@ -618,7 +618,7 @@ section {
   }
 
   .nav-links {
-    display: none; /* later we add hamburger */
+    display: none; 
   }
 }
 
@@ -662,7 +662,7 @@ section {
   width: 100%;
 }
 
-/* ---------------- HAMBURGER ---------------- */
+
 
 .hamburger {
   display: none;
@@ -694,7 +694,7 @@ section {
   transform: rotate(-45deg) translateY(-8px);
 }
 
-/* ---------------- MOBILE ---------------- */
+
 
 @media (max-width: 768px) {
 
@@ -735,5 +735,5 @@ section {
     display: none;
   }
 }
-=======
->>>>>>> f4e19abdda8e95b830038deccadcf58b9207fe67
+
+
