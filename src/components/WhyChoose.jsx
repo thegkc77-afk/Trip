@@ -51,9 +51,9 @@ const WhyChoose = () => {
 
       </div>
     </section>
-    <Contact/>
     <HowItWork/>
-    <Savesmall/>
+    <Contact/>
+    {/* <Savesmall/> */}
     </>
   );
 };

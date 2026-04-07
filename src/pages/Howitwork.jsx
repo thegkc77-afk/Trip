@@ -5,6 +5,7 @@ import Setgoal from '../assets/Setgoal.png'
 import Greenpig from '../assets/Greenpig.png'
 
 
+
 function HowItWork() {
   return (
     <section className="how-section">
@@ -30,7 +31,7 @@ function HowItWork() {
 
         <Card
           number="2"
-          icon = {<img src={Greenpig} alt="pig money photos" className="w-[30px] h-[50px]"/>}
+          icon = {<img src={Greenpig} alt='green' />}
           title="Save Monthly"
           description="Automate your savings with small, stress-free monthly deposits that fit perfectly into your daily budget."
         />
