@@ -1,5 +1,8 @@
 import React from "react";
 import "../App.css";
+import Contact from "../pages/Contact";
+import HowItWork from "../pages/Howitwork";
+import Savesmall from "../pages/Savesmall";
 
 const WhyChoose = () => {
   const points = [
@@ -10,6 +13,7 @@ const WhyChoose = () => {
   ];
 
   return (
+    <>
     <section className="why-section">
       <div className="why-container">
 
@@ -47,6 +51,10 @@ const WhyChoose = () => {
 
       </div>
     </section>
+    <Contact/>
+    <HowItWork/>
+    <Savesmall/>
+    </>
   );
 };
 

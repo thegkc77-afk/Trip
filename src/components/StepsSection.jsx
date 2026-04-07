@@ -57,6 +57,7 @@ const StepsSection = () => {
   ];
 
   return (
+    <>
     <section className="steps-section">
       <h2>Start small. Travel big.</h2>
 
@@ -70,6 +71,9 @@ const StepsSection = () => {
         ))}
       </div>
     </section>
+    
+    </>
+    
   );
 };
 

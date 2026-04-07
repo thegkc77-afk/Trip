@@ -7,13 +7,10 @@ import Hero from "../components/Hero";
 import StepsSection from "../components/StepsSection";
 import WhyChoose from "../components/WhyChoose";
 import Footer from "../components/Footer";
-
-
 const Home = () => {
   return (
     <>
-
-      <Header />
+    <Header />
       <Hero />
       {/* <DestinationSection /> */}
       <StepsSection />
@@ -29,6 +26,6 @@ const Home = () => {
     </>
   )
   
+};
 
-}
   export default Home;
