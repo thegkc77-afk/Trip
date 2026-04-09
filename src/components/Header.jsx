@@ -26,8 +26,7 @@ const Header = () => {
         {/* Hamburger */}
         <div
           className={`hamburger ${open ? "active" : ""}`}
-          onClick={() => setOpen(!open)}
-        >
+          onClick={() => setOpen(!open)}>
           <span></span>
           <span></span>
           <span></span>
