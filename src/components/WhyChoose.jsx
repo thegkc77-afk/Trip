@@ -3,6 +3,7 @@ import "../App.css";
 import Contact from "../pages/Contact";
 import HowItWork from "../pages/Howitwork";
 import Savesmall from "../pages/Savesmall";
+import AuthPage from "./AuthPage";
 
 const WhyChoose = () => {
   const points = [
@@ -53,6 +54,7 @@ const WhyChoose = () => {
     </section>
     <HowItWork/>
     <Contact/>
+    <AuthPage/>
     {/* <Savesmall/> */}
     </>
   );

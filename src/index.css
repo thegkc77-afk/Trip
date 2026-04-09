@@ -1,2 +1,180 @@
 @import "tailwindcss";
 
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+  background-color: #0f172a; /* Dark background from screenshot */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card {
+  background-color: #fff;
+  width: 850px;
+  height: 500px;
+  border-radius: 40px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* Left Section Styles */
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  z-index: 1;
+}
+
+.form-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.social-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form input {
+  background-color: #f1f5f9;
+  border: none;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.forgot-password {
+  color: #999;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+.btn-signin {
+  background-color: #1eb2bd;
+  color: white;
+  border: none;
+  padding: 12px 45px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+  align-self: center;
+  transition: transform 0.2s;
+}
+
+.btn-signin:active {
+  transform: scale(0.95);
+}
+
+/* Right Section Styles (The Blue Part) */
+.welcome-section {
+  flex: 1;
+  background: linear-gradient(to bottom right, #4facfe 0%, #1eb2bd 100%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+/* The Curve Logic */
+.curve-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 150px;
+  background-color: white;
+  border-radius: 0 100% 100% 0; /* Creates the bulge */
+  transform: translateX(-50%); /* Centers the curve on the line */
+}
+
+.welcome-content {
+  z-index: 2;
+  padding: 0 40px;
+}
+
+.welcome-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.welcome-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.btn-signup {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 45px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.btn-signup:hover {
+  background-color: white;
+  color: #1eb2bd;
+}
+
+/* Responsive Hide */
+@media (max-width: 768px) {
+  .welcome-section {
+    display: none;
+  }
+  .auth-card {
+    width: 90%;
+  }
+}
